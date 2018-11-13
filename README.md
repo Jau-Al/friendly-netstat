@@ -11,9 +11,8 @@ The output is also written in connections[time].txt (in this script folder)
 
 ### Graphic Interface
 1. With Graphic interface, most of the time : right click → properties → security → allow to execute
-2. Then double-click
+2. Then open a terminal (in most cases, right-click → Open in Terminal) and : ./friendly-netstat
 
-With Nautilus, you need to allow scripts execution in Nautilus → Preferences → Behaviour → Executable Text Files → Ask what to do.
 
 ### Usage
 Syntax : friendly-netstat [option] [refresh delay in seconds]
