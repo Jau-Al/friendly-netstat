@@ -1,12 +1,16 @@
 # friendly-netstat
+## Execution
+### Command Line
+1. Just give it the execution rights : chmod +x friendly-netstat
+2. then launch it : ./friendly-netstat
 
-Just give it the execution rights : chmod +x friendly-netstat
-then launch it : ./friendly-netstat
+### Graphic Interface
+1. With Graphic interface, most of the time : right click → properties → security → allow to execute
+2. Then double-click
 
-With Graphic interface, most of the time : right click → properties → security → allow to execute
-Then double-click
 With Nautilus, you need to allow scripts execution in Nautilus → Preferences → Behaviour → Executable Text Files → Ask what to do.
 
+### Usage
 Syntax : friendly-netstat [option] [refresh delay in seconds]
 
 Friendly-netstat gives you connected ports and programs or listening servers
