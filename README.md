@@ -19,8 +19,7 @@ The output is also written in connections[time].txt (in this script folder)
 Exemple : friendly-netstat c 5
 
 If no refresh delay is specified, refreshes output every 5 sec.
-Options :
 
-	c : connections
-	
-	l : listening servers
+Options :
+- c : connections
+- l : listening servers
