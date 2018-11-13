@@ -1,4 +1,9 @@
 # friendly-netstat
+
+Friendly-netstat gives you connected ports and programs or listening servers.
+
+The output is also written in connections[time].txt (in this script folder)
+
 ## Execution
 ### Command Line
 1. Just give it the execution rights : chmod +x friendly-netstat
@@ -12,9 +17,6 @@ With Nautilus, you need to allow scripts execution in Nautilus â†’ Preferences â
 
 ### Usage
 Syntax : friendly-netstat [option] [refresh delay in seconds]
-
-Friendly-netstat gives you connected ports and programs or listening servers
-The output is also written in connections[time].txt (in this script folder)
 
 Exemple : friendly-netstat c 5
 
