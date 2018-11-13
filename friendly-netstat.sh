@@ -26,7 +26,7 @@ c )
       tput reset
       date | tee $filename
       sudo netstat -ptun | tee -a $filename
-      echo 'Press any key to exit and keep this output in connections.txt'
+      echo 'Press any key to exit and keep this output in '$filename
       if read -r -N 1 -t $duration; then
           break
       fi
@@ -47,7 +47,7 @@ l )
      tput reset
      date | tee $filename
      sudo netstat -lptun | tee -a $filename
-     echo 'Press any key to exit and keep this output in connections.txt'
+     echo 'Press any key to exit and keep this output in '$filename
      if read -r -N 1 -t $duration; then
          break
      fi
