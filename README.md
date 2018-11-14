@@ -1,6 +1,6 @@
 # friendly-netstat
 
-Friendly-netstat gives you connected ports and programs or listening servers every X seconds.
+Friendly-netstat shows you connected ports and programs or listening servers every X seconds.
 
 The output is also written in connections[time].txt (in this script folder). The file is refreshed with the terminal output.
 
