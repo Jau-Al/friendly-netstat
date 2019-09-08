@@ -2,7 +2,7 @@
 
 Friendly-netstat shows you connected ports and programs or listening servers every X seconds.
 
-The output is also written in connections[time].txt (in this script folder). The file is refreshed with the terminal output.
+The output is also written in connections[time].txt (in this script folder). The file is refreshed from the terminal output.
 
 ## Execution
 ### Command Line
